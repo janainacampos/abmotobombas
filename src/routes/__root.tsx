@@ -10,6 +10,11 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
+import { ShopProvider } from "@/store/shop";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { WhatsAppFab } from "@/components/WhatsAppFab";
+import { Toaster } from "@/components/ui/sonner";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
