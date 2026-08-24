@@ -38,8 +38,8 @@ export function ShopProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<{ email: string } | null>(null);
 
   const addToCart: ShopState["addToCart"] = useCallback((p, opts) => {
-    const voltagem = opts?.voltagem ?? p.voltagens[0];
-    const potencia = opts?.potencia ?? p.potencias[0];
+    const voltagem = opts?.voltagem ?? p.voltagens[0] ?? "Padrão";
+    const potencia = opts?.potencia ?? p.potencias[0] ?? "Padrão";
     const qtd = opts?.qtd ?? 1;
     const key = `${p.id}|${voltagem}|${potencia}`;
     setCart((prev) => {
