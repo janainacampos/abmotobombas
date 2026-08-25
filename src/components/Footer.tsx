@@ -76,8 +76,16 @@ export function Footer() {
       </div>
 
       <div className="border-t border-primary-foreground/10 py-5 text-center text-xs text-primary-foreground/60">
-        © {new Date().getFullYear()} AB Moto Bombas — CNPJ 00.000.000/0001-00. Todos os direitos
-        reservados.
+        Copyright © All rights reserved. |{" "}
+        <a
+          href="https://miauagenciadigital.com.br/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-cta hover:underline"
+        >
+          AB Moto Bombas by MIAU
+        </a>
+        .
       </div>
     </footer>
   );
