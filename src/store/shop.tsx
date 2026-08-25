@@ -137,4 +137,4 @@ export function useShop() {
   return ctx;
 }
 
-export const WHATSAPP_NUMERO = "5511999998888";
+export const WHATSAPP_NUMERO = "5513991116587";

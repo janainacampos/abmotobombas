@@ -21,15 +21,15 @@ export function Footer() {
           <ul className="mt-4 space-y-3 text-sm text-primary-foreground/85">
             <li className="flex items-start gap-2">
               <Phone className="mt-0.5 h-4 w-4 shrink-0 text-cta" />
-              (11) 99999-8888
+              (13) 99111-6587
             </li>
             <li className="flex items-start gap-2">
               <Mail className="mt-0.5 h-4 w-4 shrink-0 text-cta" />
-              vendas@abmotobombas.com.br
+              contato@abmotobombas.com.br
             </li>
             <li className="flex items-start gap-2">
               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-cta" />
-              Av. das Indústrias, 1420 - Galpão 3, São Paulo/SP
+              R. Maués, 173 - Vila Tupi, Praia Grande - SP, 11703-090
             </li>
           </ul>
         </div>
